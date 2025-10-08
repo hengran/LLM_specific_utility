@@ -11,7 +11,7 @@ We use the retrieval code from [Tevatron](https://github.com/texttron/tevatron/t
 cd tevatron-main-bge/src
 sh test.sh 
 ```
-The top-20 results are saved in datasets/. Due to the memory limitation, we will upload the retrieval results to Huggifica for each dataset after the anonymity period.  
+The top-20 results are saved in datasets/. Due to the memory limitation, we will upload the retrieval results to HuggingFace for each dataset after the anonymity period.  
 
 # Gold Utility for Specific LLM
 
@@ -29,13 +29,13 @@ python without_passage_answer.py --model_name_or_path $model_name_or_path --data
 
 ```
 Lastly, compute the performance difference between w/ passage and w/o passage using the evaluation/has_answer_point.py and evaluation/gold_utility_computing.py.  
-The gold_utility results are saved in results/gold_utility/. Due to the memory limitation, we will upload the gold_utility results to Huggifica for each dataset after the anonymity period. 
+The gold_utility results are saved in results/gold_utility/. Due to the memory limitation, we will upload the gold_utility results to HuggingFace for each dataset after the anonymity period. 
 
 # LLM-specific Utility Judgment Methods
 Running codes of all methods are shown in src/answer_test.sh 
 
 # Evaluation
 Two evaluation types are in evaluation/ranking-evaluation.py  and evaluation/set-evaluation.py. 
-The judgment results are saved in results/main_experiments. Due to the memory limitation, we will upload all the judgment results to Huggifica for each dataset after the anonymity period. 
+The judgment results are saved in results/main_experiments. Due to the memory limitation, we will upload all the judgment results to HuggingFace for each dataset after the anonymity period. 
 
 
