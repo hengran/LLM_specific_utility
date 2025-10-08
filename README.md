@@ -1,9 +1,9 @@
 
 # Datasets
 We use the four datasets from KILT (NQ, HotpotQA, TriviaQA, FEVER), MS MARCO, and 2WikiQA. 
-Queries, human-annotated passages, the corpus, and ground-truth answers of KILT are provided by [DPR](https://github.com/facebookresearch/DPR/issues/186).
-Queries, human-annotated passages, the corpus, and ground-truth answers of MS MARCO can be downloaded from the [official code](https://microsoft.github.io/msmarco/).
-The queries and ground-truth answer of 2WikiQA can be downloaded from the [official code](https://www.dropbox.com/s/ms2m13252h6xubs/data_ids_april7.zip?e=1). 
+Queries, human-annotated passages, the corpus, and ground-truth answers of KILT are provided by [DPR](https://github.com/facebookresearch/DPR/issues/186).   
+Queries, human-annotated passages, the corpus, and ground-truth answers of MS MARCO can be downloaded from the [official code](https://microsoft.github.io/msmarco/).    
+The queries and ground-truth answer of 2WikiQA can be downloaded from the [official code](https://www.dropbox.com/s/ms2m13252h6xubs/data_ids_april7.zip?e=1).   
 
 # Retrieval
 We use the retrieval code from [Tevatron](https://github.com/texttron/tevatron/tree/main). 
