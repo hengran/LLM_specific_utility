@@ -17,12 +17,14 @@ The top-20 results are saved in datasets/. Due to the memory limitation, we will
 
 For each dataset and specific LLM: 
 ```
+ model_name_or_path="Qwen3-8B"
  dataset_path="utility-alignment/datasets/nq/Qwen3-8B_top_200_passages.jsonl"
  output_dir="utility-alignment/results/pseudo_answer/nq/Qwen3-8B_point_answer_performance_em.jsonl"
  python pointwise_performance_answerem.py --model_name_or_path $model_name_or_path --dataset_path $dataset_path --batch_size 64 --output_dir $output_dir --topk 20
 ```
 Then, 
 ```
+model_name_or_path="Qwen3-8B"
 dataset_path="utility-alignment/datasets/nq/Qwen3-8B_top_200_passages.jsonl"
 output_dir="utility-alignment/results/pseudo_answer/nq/Qwen3-8B_answer_withoutput_passage.jsonl"
 python without_passage_answer.py --model_name_or_path $model_name_or_path --dataset_path $dataset_path --batch_size 64 --output_dir $output_dir --topk 0
