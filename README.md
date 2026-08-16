@@ -13,8 +13,9 @@ sh test.sh
 ```
 The top-20 results are saved in datasets/. Due to the memory limitation, we will upload the retrieval results to HuggingFace for each dataset after the anonymity period.  
 
-# Gold Utility for Specific LLM
+# LLM-Specific-Utility-Benchmark 
 
+## How to label the golden utility for specific LLMs:
 
 For each dataset and specific LLM: 
 ```
@@ -33,7 +34,9 @@ python without_passage_answer.py --model_name_or_path $model_name_or_path --data
 ```
 Lastly, compute the performance difference between w/ passage and w/o passage using the evaluation/has_answer_point.py and evaluation/gold_utility_computing.py.  
 The gold_utility results are saved in results/gold_utility/. 
-Finllay,  for the final LLM-Specific-Utility-Benchmark can be found at [LLM-Specific-Utility-Benchmark](https://modelscope.cn/datasets/hengranzhang/LLM-Specific-Utility-Benchmark/settings)
+
+## Final LLM-Specific-Utility-Benchmark
+We also provide the final LLM-Specific-Utility-Benchmark, which can be found at [LLM-Specific-Utility-Benchmark](https://modelscope.cn/datasets/hengranzhang/LLM-Specific-Utility-Benchmark/settings)
 
 # LLM-specific Utility Judgment Methods
 Running codes of all methods are shown in src/answer_test.sh 
