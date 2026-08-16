@@ -42,7 +42,7 @@ We also provide the final LLM-Specific-Utility-Benchmark, which can be found at 
 Running codes of all methods are shown in src/answer_test.sh 
 
 # Evaluation
-Two evaluation types are in evaluation/ranking-evaluation.py  and evaluation/set-evaluation.py. 
+Two evaluation types are in evaluation/ranking-evaluation.py  and evaluation/set-evaluation.py.  we also provide detailed evalution method in [Evaluation](https://modelscope.cn/datasets/hengranzhang/LLM-Specific-Utility/tree/master/evaluation). 
 The judgment results are saved in results/main_experiments. Due to the memory limitation, we will upload all the judgment results to HuggingFace for each dataset after the anonymity period. 
 
 
